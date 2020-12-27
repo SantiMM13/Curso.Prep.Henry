@@ -1,0 +1,11 @@
+En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+for
+&&, ||, !
+For: son bucles que se ejecutan hasta devolver lo que estamos buscando o se detiene despues de cierto tiempo. Se declaran de esta manera: 
+  for(var i = 0; i > 10; i++) {
+  console.log(i);
+  }
+Donde se debe declarar una variable sobre la que se repetirá el bucle, en este caso var i = 0. Luego tendremos una expresión condicional, esta continuará sucediendo hasta que sea false. Por último, incrementaremos nuestra variable i.
+&&: Es un operador lógico que evaluará ambas expresiones y devolverá verdadero si ambas son true, si uno o ambas son false devolvera false.
+||: Es un operador lógico que devolverá true si una o ambas de las expresiones es true y devolverá false si ambas expresiones son false.
+!: Es un operador lógico que devolverá el valor booleano opuesto de lo que se le pasa. 
